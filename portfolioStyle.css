@@ -1,3 +1,15 @@
 body {
     background: Pink;
 }
+
+#red {
+    color: red;
+}
+
+#tm{
+    font-family:"Times New Roman", Times, serif;
+}
+
+#ar{
+    font-family:"Arial, Helvetica", sans-serif
+}

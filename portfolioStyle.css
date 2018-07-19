@@ -1,13 +1,9 @@
 body {
-    background: Pink;
-}
-
-#red {
-    color: red;
+    background: pink
 }
 
 #tm {
-    font-family:  serif;
+    font-family: 'Libre Baskerville', serif;
     float: right;
-    color: red;
+    color:black;pp
 }

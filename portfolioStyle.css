@@ -2,8 +2,48 @@ body {
     background: pink
 }
 
-#tm {
+p{
     font-family: 'Libre Baskerville', serif;
     float: right;
-    color:black;pp
+    color:black;
 }
+
+a:hover {
+    background-color: red;
+}
+
+.active {
+    color:blue; 
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    0% {color:#09476d}
+    25% {color: purple}
+    50% {color: hotpink}
+    75% {color: darkgreen}
+    100% {color: #87cefa}
+
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }

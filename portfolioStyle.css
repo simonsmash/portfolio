@@ -5,11 +5,11 @@ body {
 p{
     font-family: 'Libre Baskerville', serif;
     float: right;
-    color:black;
+    color: black;
 }
 
 a:hover {
-    background-color: red;
+    background-color: white;
 }
 
 .active {
@@ -21,11 +21,11 @@ a:hover {
 }
 
 @keyframes animate {
-    0% {color:#09476d}
+    0% {color:blue}
     25% {color: purple}
-    50% {color: hotpink}
-    75% {color: darkgreen}
-    100% {color: #87cefa}
+    50% {color: white}
+    75% {color: orange}
+    100% {color: blue}
 
 }
 

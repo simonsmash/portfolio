@@ -4,6 +4,7 @@ body {
 
 p{
     font-family: 'Libre Baskerville', serif;
+    text-align: center;
     float: right;
     color: black;
 }
@@ -21,11 +22,11 @@ a:hover {
 }
 
 @keyframes animate {
-    0% {color:blue}
-    25% {color: purple}
-    50% {color: white}
-    75% {color: orange}
-    100% {color: blue}
+    0% {color:teal}
+    25% {color: white}
+    50% {color: lightblue}
+    75% {color: lightgreen}
+    100% {color: teal}
 
 }
 
